@@ -127,12 +127,12 @@ var $container_isotope, args_isotope;
             }
 
             $.ajax({
-            	url: olivo.admin_ajax,
+            	url: olivo_lite.admin_ajax,
             	type: 'POST',
             	dataType: 'html',
             	data: {
             		action: 'olivo_lite_load_portfolio_items',
-            		token: olivo.token,
+            		token: olivo_lite.token,
             		category: category,
                     post_type: post_type,
                     portfolio_type: portfolio_type,
@@ -231,56 +231,4 @@ var $container_isotope, args_isotope;
     });
 
 } )( jQuery );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

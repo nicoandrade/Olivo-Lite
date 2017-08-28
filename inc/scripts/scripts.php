@@ -63,7 +63,7 @@
 		'admin_ajax' => admin_url( 'admin-ajax.php' ),
 		'token' => wp_create_nonce( 'quemalabs-secret' )
 	);
-	wp_localize_script( 'olivo_lite_theme-custom', 'olivo-lite', $olivo_lite_custom_js );
+	wp_localize_script( 'olivo_lite_theme-custom', 'olivo_lite', $olivo_lite_custom_js );
 	//=================================================================
 
 

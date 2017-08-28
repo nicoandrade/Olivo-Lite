@@ -50,10 +50,6 @@ Modernizr by Faruk, Paul, Alex, Ryan, Patrick, Stu, and Richard | MIT License
 License: https://opensource.org/licenses/MIT
 Source: https://modernizr.com
 
-ScrollReveal by @jlmakes | MIT License
-License: https://github.com/jlmakes/scrollreveal.js/blob/master/LICENSE.md
-Source: https://scrollrevealjs.org
-
 Isotope by Metafizzy | GPLv3
 License: http://isotope.metafizzy.co/license.html
 Source: http://isotope.metafizzy.co/

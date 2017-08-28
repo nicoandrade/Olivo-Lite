@@ -301,18 +301,6 @@
 		"oAP": "\/inc\/jetpack.php",
 		"oF": 0
 		},
-	"\/inc\/plugins\/olivo-shortcodes\/olivo-shortcodes.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/plugins\/olivo-shortcodes\/olivo-shortcodes.zip",
-		"oF": 0
-		},
-	"\/inc\/plugins\/visual-composer\/js_composer.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/inc\/plugins\/visual-composer\/js_composer.zip",
-		"oF": 0
-		},
 	"\/inc\/scripts\/scripts.php": {
 		"ft": 8192,
 		"oA": 2,

@@ -1,6 +1,6 @@
 === Olivo Lite ===
 
-Olivo Lite is a beautiful portfolio theme perfect for modern and clean sites.
+Olivo Lite is the perfect option for creatives who wants a cutting edge portfolio. For designers or photographers, this themes will make you stand out from the crowd.
 
 Author: Quema Labs
 Tags: light, white, gray, right-sidebar, two-columns, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging

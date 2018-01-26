@@ -24,6 +24,7 @@
 	// Logo
 	wp.customize( 'olivo_lite_logo', function( value ) {
 		value.bind( function( to ) {
+			console.log(to);
 			if ( to != "" ) {
 				var logo = '<img src="' + to + '" />';
 				$( '.logo_container .ql_logo' ).html( logo );
@@ -36,12 +37,17 @@
 	// Header text color.
 	wp.customize( 'header_textcolor', function( value ) {
 		value.bind( function( to ) {
+			console.log( to );
 			if ( 'blank' === to ) {
 				$( '.site-title a, .site-description' ).css( {
 					'clip': 'rect(1px, 1px, 1px, 1px)',
 					'position': 'absolute'
 				} );
 			} else {
+				$( '.site-title a' ).css( {
+					'clip': 'auto',
+					'position': 'relative'
+				} );
 				$( '.site-description, #jqueryslidemenu a, .ql_login-btn, .ql_cart-btn' ).css( {
 					'clip': 'auto',
 					'color': to,

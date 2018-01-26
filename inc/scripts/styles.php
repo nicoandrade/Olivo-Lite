@@ -98,7 +98,7 @@ function olivo_lite_get_custom_css( $colors ) {
 	) );
 	$heroColor_darker = olivo_lite_darken_color( $colors['heroColor'], 1.1 );
 	$link_color_darker = olivo_lite_darken_color( $colors['link_color'], 1.2 );
-	$heroColor_rgb = hex2rgb( $colors['heroColor'] );
+	$heroColor_rgb = olivo_lite_hex2rgb( $colors['heroColor'] );
 
 	$olivo_lite_site_background_enable = get_theme_mod( 'olivo_lite_site_background_enable', false );
 
@@ -236,7 +236,8 @@ function olivo_lite_get_custom_css( $colors ) {
 	.ql_woocommerce_categories ul li.current a,
 	.woocommerce p.stars a,
 	.ql_cart-btn .count,
-	#jqueryslidemenu ul.nav > li > a:hover
+	#jqueryslidemenu ul.nav > li > a:hover,
+	.olivo-portfolio-type.single article .metadata a
 	{
 		color: {$colors['heroColor']};
 	}
@@ -278,7 +279,8 @@ function olivo_lite_get_custom_css( $colors ) {
 	.no-touch .woocommerce-page #payment #place_order:hover,
 	.contact-form input[type="submit"]:hover,
 	.no-touch .portfolio-load-wrapper .portfolio-load-more:hover,
-	.no-touch #ql_load_more:hover
+	.no-touch #ql_load_more:hover,
+	.no-touch .contact-form input[type="submit"]:hover
 	{
 		background-color: {$heroColor_darker};
 	}

@@ -78,7 +78,7 @@ if ( ! function_exists( 'olivo_lite_new_content_more' ) ){
 /**
  * Convert HEX colors to RGB
  */
-function hex2rgb( $colour ) {
+function olivo_lite_hex2rgb( $colour ) {
     $colour = str_replace("#", "", $colour);
     if ( strlen( $colour ) == 6 ) {
             list( $r, $g, $b ) = array( $colour[0] . $colour[1], $colour[2] . $colour[3], $colour[4] . $colour[5] );
@@ -98,7 +98,7 @@ function hex2rgb( $colour ) {
  *
  * @return array
  */
- function get_portfolios_slug(){
+ function olivo_lite_get_portfolios_slug(){
 
     if ( class_exists( 'Multiple_Portfolios' ) ) {
 
@@ -120,7 +120,7 @@ function hex2rgb( $colour ) {
 *
 * @return array
 */
-function get_portfolios_options(){
+function olivo_lite_get_portfolios_options(){
 
     if ( class_exists( 'Multiple_Portfolios' ) ) {
 
@@ -184,7 +184,7 @@ if ( ! function_exists( 'rwmb_meta' ) ) {
 if ( ! function_exists( 'olivo_lite_is_portfolio_type' ) ) {
     function olivo_lite_is_portfolio_type( $post_type ) {
 
-    	$olivo_lite_portfolios_post_types = get_portfolios_slug();
+    	$olivo_lite_portfolios_post_types = olivo_lite_get_portfolios_slug();
         if ( ! is_wp_error( $olivo_lite_portfolios_post_types ) ) {
         	if ( in_array( $post_type, $olivo_lite_portfolios_post_types ) ) :
                 return true;

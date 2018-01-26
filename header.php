@@ -57,9 +57,7 @@
                             <div class="logo_container <?php echo esc_attr( $olivo_lite_logo_container_classes ); ?>">
                                 <?php
                                 $logo = '<a href="' . esc_url( home_url( '/' ) ) . '" rel="home" class="ql_logo">' . esc_html( get_bloginfo( 'name' ) ) . '</a>';
-                                if ( isset( $_SERVER['HTTP_HOST'] ) && 'demo.quemalabs.com' == $_SERVER['HTTP_HOST'] && 'sidenav-out' == $olivo_lite_site_layout ){ //For Demo only
-                                    $logo = '<a href="http://demo.quemalabs.com/olivo/" class="custom-logo-link" rel="home" itemprop="url"><img width="86" height="21" src="http://demo.quemalabs.com/olivo/wp-content/uploads/2017/05/OLIVO_LITE_w-86x21.png" class="custom-logo" alt="" itemprop="logo" srcset="http://demo.quemalabs.com/olivo/wp-content/uploads/2017/05/OLIVO_LITE_w.png 173w, http://demo.quemalabs.com/olivo/wp-content/uploads/2017/05/OLIVO_LITE_w-86x21.png 86w" sizes="(max-width: 86px) 100vw, 86px"></a>';
-                                }elseif ( has_custom_logo() ){
+                                if ( has_custom_logo() ){
                                     $logo = get_custom_logo();
                                 }
                                 ?>

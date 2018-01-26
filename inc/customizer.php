@@ -35,6 +35,7 @@ function olivo_lite_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+	$wp_customize->get_setting( 'custom_logo' )->transport = 'refresh';
 
 
 
@@ -364,6 +365,18 @@ function olivo_lite_customize_js() {
 
 }
 add_action( 'customize_controls_enqueue_scripts', 'olivo_lite_customize_js' );
+
+
+/**
+ * Load Stylesheet on the Customizer not the Previewer (iframe)
+ */
+function olivo_lite_customize_css() {
+
+	wp_register_style( 'olivo_lite_custom_wp_admin_css', get_template_directory_uri() . '/css/admin-styles.css', false, '1.0.0' );
+    wp_enqueue_style( 'olivo_lite_custom_wp_admin_css' );
+
+}
+add_action( 'customize_controls_enqueue_scripts', 'olivo_lite_customize_css' );
 
 
 

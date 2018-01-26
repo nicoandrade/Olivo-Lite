@@ -167,8 +167,15 @@ require get_template_directory() . '/inc/scripts/styles.php';
  * Enqueue styles to the Admin Panel.
  */
 function olivo_lite_wp_admin_style() {
+
+	$current_screen = get_current_screen();
+
+    if( "appearance_page_olivo_lite_theme-info" == $current_screen->id ) {
+
         wp_register_style( 'olivo_lite_custom_wp_admin_css', get_template_directory_uri() . '/css/admin-styles.css', false, '1.0.0' );
         wp_enqueue_style( 'olivo_lite_custom_wp_admin_css' );
+
+    }
 }
 add_action( 'admin_enqueue_scripts', 'olivo_lite_wp_admin_style' );
 

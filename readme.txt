@@ -70,6 +70,14 @@ PhotoSwipe by @dimsemenov | MIT License
 License: https://raw.githubusercontent.com/dimsemenov/PhotoSwipe/master/LICENSE
 Source: http://photoswipe.com
 
+Color Thief by Lokesh Dhakar | MIT License
+License: https://raw.githubusercontent.com/lokesh/color-thief/master/LICENSE
+Source: http://www.lokeshdhakar.com
+
+jquery.nicescroll by InuYaksa | MIT License
+License: http://www.opensource.org/licenses/mit-license.php
+Source: https://nicescroll.areaaperta.com/
+
 Pace
 License: https://raw.githubusercontent.com/HubSpot/pace/master/LICENSE
 Source: http://github.hubspot.com/pace/docs/welcome/

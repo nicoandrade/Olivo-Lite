@@ -5,7 +5,7 @@ function olivo_lite_meta_boxes( $meta_boxes ) {
 
     $prefix = 'olivo_lite_';
 	
-	if( ! is_wp_error( get_portfolios_options() ) ){
+	if( ! is_wp_error( olivo_lite_get_portfolios_options() ) ){
 
 	    $meta_boxes[] = array(
 			'title' => __( 'Select Portfolio to display', 'olivo-lite' ),
@@ -15,7 +15,7 @@ function olivo_lite_meta_boxes( $meta_boxes ) {
 					'name'    => esc_html__( 'Select', 'olivo-lite' ),
 					'id'      => "{$prefix}portfolio_display",
 					'type'    => 'select',
-					'options' => get_portfolios_options(),
+					'options' => olivo_lite_get_portfolios_options(),
 				),
 				array(
 					'name'    => esc_html__( 'Columns', 'olivo-lite' ),
@@ -35,11 +35,11 @@ function olivo_lite_meta_boxes( $meta_boxes ) {
 
 	}
 
-	if( ! is_wp_error( get_portfolios_slug() ) ){
+	if( ! is_wp_error( olivo_lite_get_portfolios_slug() ) ){
 
 	    $meta_boxes[] = array(
 			'title' => __( 'Portfolio Item Options', 'olivo-lite' ),
-	        'post_types' => get_portfolios_slug(),
+	        'post_types' => olivo_lite_get_portfolios_slug(),
 			'fields' => array(
 				array(
 					'name'    => esc_html__( 'Select layout', 'olivo-lite' ),

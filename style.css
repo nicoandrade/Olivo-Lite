@@ -2,13 +2,17 @@
 Theme Name: Olivo Lite
 Theme URI: https://www.quemalabs.com/theme/olivo-lite/
 Description: Olivo Lite is the perfect option for creatives who wants a cutting edge portfolio. For designers or photographers, this themes will make you stand out from the crowd
-Version: 1.0.1
+Version: 1.0.4
 Author: Quema Labs
 Author URI: https://www.quemalabs.com/
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Tags: portfolio, photography, two-columns, custom-background, threaded-comments, custom-menu, featured-images, sticky-post, translation-ready
 Text Domain: olivo-lite
+
+This theme, like WordPress, is licensed under the GPL.
+
+Olivo Lite, Copyright 2017 quemalabs.com
 */
 /*
 ----------------------------------------------------------------
@@ -74,7 +78,7 @@ Header
   display: inline-block;
   font-size: 32px;
   font-size: 1.77777778rem;
-  line-height: 0.6875em;
+  line-height: 0.8125em;
 }
 .olivo-sidenav .logo_container .site-title,
 .olivo-sidenav-out .logo_container .site-title {

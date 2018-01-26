@@ -36,8 +36,8 @@ function quemalabs_getting_started_page() {
 					}
 					?>
 					<li><a href="?page=olivo_lite_theme-info&amp;tab=docs" class="<?php echo ( $tab == 'docs' ) ? ' active' : ''; ?>"><i class="fa fa-file-text-o"></i> <?php esc_html_e( 'Documentation', 'olivo-lite' ); ?></a></li>
-					<li><a href="https://www.quemalabs.com/theme/olivo/" target="_blank"><i class="fa fa-star-o"></i> <?php esc_html_e( 'PRO Version', 'olivo-lite' ); ?></a></li>
-					<li><a href="https://www.quemalabs.com/" target="_blank" class="<?php echo ( $tab == 'more-themes' ) ? ' active' : ''; ?>"><i class="fa fa-wordpress"></i> <?php esc_html_e( 'More Themes', 'olivo-lite' ); ?></a></li>
+					<li><a href="<?php echo esc_url( 'https://www.quemalabs.com/theme/olivo/' ); ?>" target="_blank"><i class="fa fa-star-o"></i> <?php esc_html_e( 'PRO Version', 'olivo-lite' ); ?></a></li>
+					<li><a href="<?php echo esc_url( 'https://www.quemalabs.com/' ); ?>" target="_blank" class="<?php echo ( $tab == 'more-themes' ) ? ' active' : ''; ?>"><i class="fa fa-wordpress"></i> <?php esc_html_e( 'More Themes', 'olivo-lite' ); ?></a></li>
 				</ul>
 
 			</div><!-- .theme-content -->

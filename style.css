@@ -2,7 +2,7 @@
 Theme Name: Olivo Lite
 Theme URI: https://www.quemalabs.com/theme/olivo-lite/
 Description: Olivo Lite is the perfect option for creatives who wants a cutting edge portfolio. For designers or photographers, this themes will make you stand out from the crowd
-Version: 1.0.4
+Version: 1.0.5
 Author: Quema Labs
 Author URI: https://www.quemalabs.com/
 License: GNU General Public License v2 or later
@@ -2628,6 +2628,30 @@ Social Nav
 .nav_social li a[href*="behance.net"]:hover,
 #menu-social li a[href*="behance.net"]:hover {
   background-color: #0077ff;
+}
+.nav_social li a[href*="t.me"]::before,
+#menu-social li a[href*="t.me"]::before {
+  content: "\f2c6";
+}
+.nav_social li a[href*="t.me"]:hover,
+#menu-social li a[href*="t.me"]:hover {
+  background-color: #609dd7;
+}
+.nav_social li a[href*="telegram.me"]::before,
+#menu-social li a[href*="telegram.me"]::before {
+  content: "\f2c6";
+}
+.nav_social li a[href*="telegram.me"]:hover,
+#menu-social li a[href*="telegram.me"]:hover {
+  background-color: #609dd7;
+}
+.nav_social li a[href*="mailto:"]::before,
+#menu-social li a[href*="mailto:"]::before {
+  content: "\f003";
+}
+.nav_social li a[href*="mailto:"]:hover,
+#menu-social li a[href*="mailto:"]:hover {
+  background-color: #4A90E2;
 }
 /*
 ==========================================

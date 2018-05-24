@@ -1,3 +1,8 @@
+* 1.0.6 - 24/05/2018
+====================
+- Added: Tags in portfolio items
+
+
 * 1.0.5 - 23/03/2018
 ====================
 - Added: Telegram and Email icons to social menu

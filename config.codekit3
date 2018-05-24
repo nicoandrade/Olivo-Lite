@@ -7,7 +7,7 @@
 		"uuidString": "478C63AA-CF48-4068-A49B-80E460ECA71B"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -2743,7 +2743,8 @@
 	"creationDate": 525451921,
 	"displayValue": "olivo-lite",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confusedBaby"
+	"iconImageName": "meme-confusedBaby",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4546,6 +4547,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

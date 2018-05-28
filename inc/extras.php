@@ -148,12 +148,12 @@ function olivo_lite_get_portfolios_options(){
 
         $olivo_lite_portfolio_types = Multiple_Portfolios::get_post_types();
         $taxonomy_objects = get_object_taxonomies( 'portfolio' );
-
         foreach ( $olivo_lite_portfolio_types as $portfolio ) {
             $taxonomy_objects = get_object_taxonomies( $portfolio );
-            $portfolio_tax_category = $taxonomy_objects[0]; //portfolio_category
-            if ( $category == $portfolio_tax_category ) {
-                return true;
+            foreach ( $taxonomy_objects as $key => $taxonomy_object ) {
+                if ( $category == $taxonomy_object ) {
+                    return true;
+                }
             }
         }
         return false;
@@ -162,6 +162,7 @@ function olivo_lite_get_portfolios_options(){
     }
 
  }
+ 
 
 
 /**
